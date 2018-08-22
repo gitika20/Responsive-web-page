@@ -7,14 +7,14 @@
 
  h1 {
  	text-align: center;
- 	font-size: 1.75rem;
+ 	font-size: 1.85em;
  }
  .title {
  	position: absolute;
  	top: 0;
  	right: 0;
- 	border: 1px solid black;
- 	font-size: 1.25rem;
+ 	border: 2px solid black;
+ 	font-size: 1.25em;
  }
 
  #section1, #section2, #section3 {
@@ -24,23 +24,27 @@
  }
 
  #section1 .content, #section2 .content, #section3 .content {
- 	font-size: 1rem;
- 	background-color: #0DD37E; 
+ 	background-color: #C0C0C0; 
  	position: relative;
- 	border:1px solid black;
- 	padding-top: 12px;
+ 	font-size: 1em;
+ 	border:2px solid black;
+ 	padding: 22px 2px 5px 10px;
  }
  
 #section1 .title {
-	background-color: #065C37;
+	background-color: #CD5C5C;
+	padding:3px 20px;
 }
 
 #section2 .title {
-	background-color: #B95B37;
+	background-color: #8B0000;
+	color:#fff;
+	padding:3px 20px;
 }
 
 #section3 .title {
-	background-color: #0D4EE1;
+	background-color: #F0E68C;
+	padding:3px 20px;
 }
 
 /* desktop  */
